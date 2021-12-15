@@ -1,7 +1,7 @@
 'use strict';
 
-module.exports = packageA;
-
 function packageA() {
-    return ['package-a'];
+  return ['package-a'];
 }
+
+module.exports = packageA;

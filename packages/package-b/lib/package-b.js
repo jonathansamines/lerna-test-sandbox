@@ -1,9 +1,9 @@
 'use strict';
 
-const packageA = require("package-a");
-
-module.exports = packageB;
+const packageA = require('package-a');
 
 function packageB() {
-    return ["package-b", ...packageA()];
+  return ['package-b', ...packageA()];
 }
+
+module.exports = packageB;
