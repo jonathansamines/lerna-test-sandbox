@@ -1,0 +1,32 @@
+{
+  "name": "package-a",
+  "version": "0.0.0",
+  "description": "test",
+  "author": "Jonathan Samines <jn.samines@gmail.com>",
+  "homepage": "https://github.com/jonathansamines/lerna-test-sandbox#readme",
+  "license": "ISC",
+  "main": "lib/package-a.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathansamines/lerna-test-sandbox.git"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "bugs": {
+    "url": "https://github.com/jonathansamines/lerna-test-sandbox/issues"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.3"
+  },
+  "dependencies": {
+    "mocha": "^9.1.3"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "package-c",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Jonathan Samines <jn.samines@gmail.com>",
+  "homepage": "https://github.com/jonathansamines/lerna-test-sandbox#readme",
+  "license": "ISC",
+  "main": "lib/package-c.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathansamines/lerna-test-sandbox.git"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "bugs": {
+    "url": "https://github.com/jonathansamines/lerna-test-sandbox/issues"
+  },
+  "dependencies": {
+    "package-b": "^0.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.3"
+  }
+}
