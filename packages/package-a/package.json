@@ -24,6 +24,10 @@
   "bugs": {
     "url": "https://github.com/jonathansamines/lerna-test-sandbox/issues"
   },
+  "volta": {
+    "extends": "../../package.json",
+    "node": "14.18.2"
+  },
   "nyc": {
     "all": true,
     "check-coverage": true,
