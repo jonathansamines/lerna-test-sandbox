@@ -18,15 +18,24 @@
     "url": "git+https://github.com/jonathansamines/lerna-test-sandbox.git"
   },
   "scripts": {
-    "test": "mocha test"
+    "test": "nyc mocha test"
   },
   "bugs": {
     "url": "https://github.com/jonathansamines/lerna-test-sandbox/issues"
+  },
+  "nyc": {
+    "all": true,
+    "check-coverage": true,
+    "branches": 100,
+    "lines": 100,
+    "functions": 100,
+    "statements": 100
   },
   "dependencies": {
     "package-b": "^0.0.0"
   },
   "devDependencies": {
-    "mocha": "^9.1.3"
+    "mocha": "^9.1.3",
+    "nyc": "^15.1.0"
   }
 }
